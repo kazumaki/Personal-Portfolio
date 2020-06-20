@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+.mainContainer {
+  display: flex;
+}
+
+.leftContainer {
+  width: 50vw;
+  position: fixed;
+}
+
+.rightContainer {
+  width: 50vw;
+  margin-left: 50vw;
+  display: flex;
+  flex-direction: column;
+}
