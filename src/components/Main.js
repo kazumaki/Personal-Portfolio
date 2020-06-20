@@ -7,11 +7,20 @@ const Main = () => (
     {
       projects.map(
         (project, id) => (
-          <div className={styles.projectBox} style={{backgroundColor: project.background}} key={project.name}>
-            <h1>{`.00${id + 1}`}</h1>
-            <h1>{project.name}</h1>
-            <h1>{project.description}</h1>
-            <a href={project.link}>kkj</a>
+          <div
+            className={styles.projectBox}
+            style={{ backgroundColor: project.background }}
+            key={project.name}
+          >
+            <span className={styles.projectID}>{`.00${id + 1}`}</span>
+            <img className={styles.projectImage} src={project.img} alt="project preview" />
+            <div className={styles.bottomBox}>
+              <div className={styles.bottomBoxInner}>
+                <span className={styles.projectName}>{project.name}</span>
+                <span className={styles.projectDescription}>{project.description}</span>
+              </div>
+              <a href={project.link}>kkj</a>
+            </div>
           </div>
         ),
       )

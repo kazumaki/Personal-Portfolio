@@ -4,5 +4,23 @@ main {
 }
 
 .projectBox {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
+  padding: 25px;
+}
+
+.projectImage {
+  width: 100%;
+}
+
+.bottomBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottomBoxInner {
+  display: flex;
+  flex-direction: column;
 }
