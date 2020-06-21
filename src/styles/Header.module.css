@@ -3,5 +3,42 @@ header {
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
-  padding: 50px;
+  padding: 150px 100px;
+}
+
+.btnSendEmail {
+  color: white;
+  font-size: 1.25rem;
+  background-color:#6497b1;
+  width: 250px;
+  height: 65px;
+  border: none;
+  border-radius: 50px;
+  transition: linear 300ms;
+}
+
+.btnSendEmail:hover {
+  background-color: #b3cde0;
+  transition: linear 300ms;
+}
+
+.icon {
+  color: #B4D8E7;
+}
+
+.icon:hover {
+  color: #56BAEC;
+}
+
+.iconHover {
+  transition: linear 200ms;
+}
+
+.socialNetworks {
+  display: flex;
+  width: 20%;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 250px;
 }

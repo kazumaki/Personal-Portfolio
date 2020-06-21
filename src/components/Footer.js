@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/Footer.module.css';
 
 const Footer = () => (
   <footer>
-    hehefoot
+    © 2020 Vinicius Campos Carvalho.
   </footer>
 );
 
