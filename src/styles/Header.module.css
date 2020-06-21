@@ -2,8 +2,8 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
-  padding: 150px 100px;
+  align-items: flex-start;
+  padding: 150px 50px;
 }
 
 .btnSendEmail {
@@ -41,4 +41,10 @@ header {
   justify-content: space-between;
   align-items: center;
   min-width: 250px;
+}
+
+@media only screen and (min-width: 992px) {
+  header {
+    padding: 150px 100px;
+  }
 }
