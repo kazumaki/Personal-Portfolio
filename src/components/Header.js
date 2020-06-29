@@ -33,7 +33,7 @@ const Header = () => (
   <header>
     <div className="head-text">
       <h1>DEVELOPER.</h1>
-      <h1>REALIABLE.</h1>
+      <h1>RELIABLE.</h1>
       <h1>FAST</h1>
       <h1>& SMART.</h1>
     </div>
