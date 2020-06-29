@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.101b5d3d.chunk.css",
-    "main.js": "/static/js/main.b4b811f7.chunk.js",
-    "main.js.map": "/static/js/main.b4b811f7.chunk.js.map",
+    "main.css": "/static/css/main.7d2198df.chunk.css",
+    "main.js": "/static/js/main.f74beb80.chunk.js",
+    "main.js.map": "/static/js/main.f74beb80.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ccef853a.js",
     "runtime-main.js.map": "/static/js/runtime-main.ccef853a.js.map",
     "static/js/2.2b3815f7.chunk.js": "/static/js/2.2b3815f7.chunk.js",
     "static/js/2.2b3815f7.chunk.js.map": "/static/js/2.2b3815f7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3b5d017df379e1707fdb85eea3e71ebe.js": "/precache-manifest.3b5d017df379e1707fdb85eea3e71ebe.js",
+    "precache-manifest.2806be14b1f9f1be15628a2f880e8599.js": "/precache-manifest.2806be14b1f9f1be15628a2f880e8599.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.101b5d3d.chunk.css.map": "/static/css/main.101b5d3d.chunk.css.map",
+    "static/css/main.7d2198df.chunk.css.map": "/static/css/main.7d2198df.chunk.css.map",
     "static/js/2.2b3815f7.chunk.js.LICENSE.txt": "/static/js/2.2b3815f7.chunk.js.LICENSE.txt",
     "static/media/billy-the-jumper-mock-shadow.png": "/static/media/billy-the-jumper-mock-shadow.9981b95f.png",
     "static/media/facebook-clone-mock-shadow.png": "/static/media/facebook-clone-mock-shadow.f444ca8c.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.ccef853a.js",
     "static/js/2.2b3815f7.chunk.js",
-    "static/css/main.101b5d3d.chunk.css",
-    "static/js/main.b4b811f7.chunk.js"
+    "static/css/main.7d2198df.chunk.css",
+    "static/js/main.f74beb80.chunk.js"
   ]
 }
