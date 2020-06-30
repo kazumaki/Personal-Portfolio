@@ -46,7 +46,7 @@ const Header = () => (
       {
         icons.map(
           icon => (
-            <a href={icon.link} key={icon.icon}>
+            <a href={icon.link} key={icon.icon} target="_blank" rel="noopener noreferrer">
               <i
                 key={icon.icon}
                 className={`${styles.icon} fab ${icon.icon} fa-2x`}

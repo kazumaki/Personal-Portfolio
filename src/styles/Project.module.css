@@ -33,6 +33,12 @@
   color: rgba(255, 255, 255, 1);
 }
 
+.linkContainer {
+  display: flex;
+  min-width: 80px;
+  justify-content: space-between;
+}
+
 @media only screen and (min-width: 992px) {
   .projectBox {
     padding: 100px 75px;

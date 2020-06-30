@@ -14,9 +14,15 @@ const Project = ({ project, id }) => (
         <span className={styles.projectName}>{project.name}</span>
         <span className={styles.projectDescription}>{project.description}</span>
       </div>
-      <a href={project.link}>
-        <i className={`${styles.icon} fab ${project.icon} fa-2x`} />
-      </a>
+      <div className={styles.linkContainer}>
+        <a href={project.repository} target="_blank" rel="noopener noreferrer">
+          <i className={`${styles.icon} fab ${project.repoIcon} fa-2x`} />
+        </a>
+        <a href={project.live} target="_blank" rel="noopener noreferrer">
+          <i className={`${styles.icon} fas ${project.liveIcon} fa-2x`} />
+        </a>
+      </div>
+
     </div>
   </div>
 );
