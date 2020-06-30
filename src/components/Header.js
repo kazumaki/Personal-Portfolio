@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/Header.module.css';
+import styles from '../styles/Header.module.scss';
 
 const icons = [
   {
@@ -31,11 +31,12 @@ const handleMouseOut = element => {
 
 const Header = () => (
   <header>
-    <div className="head-text">
+    <h1 className={styles.name}>Vinicius Campos</h1>
+    <div className={styles.headText}>
       <h1>DEVELOPER.</h1>
       <h1>RELIABLE.</h1>
-      <h1>FAST</h1>
-      <h1>& SMART.</h1>
+      <h1>FAST.</h1>
+      <h1>SMART.</h1>
     </div>
     <div className="head-description">
       Full Stack Web Developer. Currently looking for new opportunities.
