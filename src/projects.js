@@ -24,7 +24,7 @@ const projects = [
     background: '#03616D',
   },
   {
-    name: 'LoL Champion Databse',
+    name: 'League of Legends Champion Databse',
     description: 'A SPA made with async React & Redux that fetches Riot Games public API',
     repository: 'https://www.github.com/kazumaki/lol-champion-db',
     live: 'http://lol-champion-db.herokuapp.com/',
